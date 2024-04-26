@@ -2,7 +2,7 @@
 
 * {
     font-family: 'Poppins', sans-serif;
-   
+
 }
 
 header {
@@ -14,19 +14,40 @@ header {
     left: 0;
     width: 100%;
     background-color: chocolate;
-    
 }
 
 .logo {
-    
+    font-size: 2em;
+    color: white;
+
+}
+
+nav.menu a {
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+nav.menu button {
+    width: 130px;
+    height: 50px;
+    border-radius: 6px;
+    margin-left: 40px;
+    font-weight: 500;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
 }
 
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; 
-    
+    min-height: 100vh;
+
 }
 
 main {
@@ -39,8 +60,3 @@ main {
     align-items: center;
     background-color: aqua;
 }
-
-
-
-
-
